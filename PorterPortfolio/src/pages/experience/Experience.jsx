@@ -31,7 +31,7 @@ const Experience = () => {
                     <h5> Orlando, FL | 03.22 - 09.22</h5>
                 </div>
                 <p>Utilized exceptional communication and customer service skills to ensure a seamless checkout experience, addressing customer
-inquiries and concerns promptly, fostering a positive shopping environment.</p>
+                    inquiries and concerns promptly, fostering a positive shopping environment.</p>
             </div><br /> <hr />
 
             <div className="work-details">
@@ -40,9 +40,9 @@ inquiries and concerns promptly, fostering a positive shopping environment.</p>
                     <h5> Clermont, FL | 06.21 - 12.21</h5>
                 </div>
                 <p>Employed strong teamwork skills to collaborate effectively with colleagues, ensuring accuracy in financial transactions and
-maintaining accountability in money counting, leveraging numerical proficiency to uphold precise monetary records.</p>
+                    maintaining accountability in money counting, leveraging numerical proficiency to uphold precise monetary records.</p>
             </div><br /> <hr />
-            
+
             <div className="work-details">
                 <div className="work-details-header">
                     <h3> Rubios Mexican Store</h3>
