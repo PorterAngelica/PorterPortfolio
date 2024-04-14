@@ -2,4 +2,29 @@
     background-color: white;
     border-radius: 20px;
     margin-top: 100px;
+
+    .header{
+        h1{
+            text-align: start;
+            padding: 10px;
+        }
+
+        p{
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 300;
+            letter-spacing: 0.0375em;
+            line-height: 2;
+        }
+
+        .gift{
+            width: 300px;
+            padding: 10px;
+            margin-left: 35%;
+            img{
+                border-radius: 20px;
+                width: 100%;
+            }
+        }
+    }
 }

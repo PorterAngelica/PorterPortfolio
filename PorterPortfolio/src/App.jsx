@@ -6,6 +6,9 @@ import "./App.css"
 import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom"
 import LeftBar from './components/leftBar/LeftBar.jsx'
 import RightBar from './components/rightBar/RightBar.jsx'
+import Skills from './pages/skills/Skills.jsx'
+import Projects from './pages/projects/Projects.jsx'
+import Experience from './pages/experience/Experience.jsx'
 
 function App() {
   
@@ -30,6 +33,10 @@ function App() {
 
       <Route path='/' element={ <Layout /> }>
         <Route index element={ <Home/> } />
+        <Route path='/skills' element={ <Skills />} />
+        <Route path='/projects' element={ <Projects />} />
+        <Route path='/experience' element={ <Experience />} />
+        <Route path='/contact' element={ <Skills />} />
       </Route>
 
     </Routes>

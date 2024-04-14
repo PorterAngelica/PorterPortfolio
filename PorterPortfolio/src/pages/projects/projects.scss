@@ -1,0 +1,58 @@
+.projects-main{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 100px;
+
+
+    .projects{
+        background-color: white;
+        border-radius: 20px;
+        // width: 100px;
+        // border: 1px red dotted;
+        margin-left: 50px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+
+    .project-items{
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        background-color: white;
+        border-radius: 20px;
+        // width: 700px;
+        // border: 1px red dotted;
+
+        .description{
+            p{
+                font-family: "Source Sans Pro", Helvetica, sans-serif;
+                font-size: 1rem;
+                font-weight: 300;
+                letter-spacing: 0.0375em;
+                line-height: 2;
+            
+            }
+        }
+
+        .image{
+            width: 650px;
+            margin-left: 50px;
+            background-color: white;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+            img{
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+    }
+
+    .socials{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+}
