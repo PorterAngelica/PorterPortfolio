@@ -35,7 +35,7 @@ const Projects = () => {
                     
                 </div>
                 <div className="image">
-                    <img src="./src/images/Screenshot 2024-04-14 135502.png" alt="" />
+                    <img src="./src/images/ebuy.png" alt="" />
                 </div>
             </div>
                 <div className="socials">

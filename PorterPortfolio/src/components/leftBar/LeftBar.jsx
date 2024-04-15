@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import {Link} from "react-router-dom"
 
 const LeftBar = () => {
     return (
@@ -18,12 +19,18 @@ const LeftBar = () => {
                     <p className='info-1'> <i> <strong>Full Stack Web Developer</strong></i> </p>
                 </div>
                 <div className="social">
+                    <Link to="https://github.com/PorterAngelica">
                     <div className='social-icon'  >
                         <FaGithub size={37} color='blueviolet' />
                     </div>
+                    </Link>
+
+                    <Link to="https://www.linkedin.com/in/melany-porter/">
                     <div className='social-icon' >
                         <FaLinkedin size={37} color='blue' />
                     </div>
+                    </Link>
+
                 </div> <br />
                 <div className="more-info">
                     <div className="phone">
@@ -51,7 +58,7 @@ const LeftBar = () => {
                     </div>
                 </div> <br />
 
-                <button>Download Cv</button>
+                
             </div>
             </div>
         // </div>

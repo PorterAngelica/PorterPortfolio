@@ -10,7 +10,7 @@ import {Link} from "react-router-dom"
 
 const RightBar = () => {
     return (
-        <div>
+        <div >
             <div className="main-container-rightBar">
                 <Link to="/" style={{textDecoration:"none", color:'inherit'}}>
                 <div className="about">
@@ -41,15 +41,8 @@ const RightBar = () => {
                 <p><i>Experience</i></p>
                 </div>
                 </Link>
-
-                <Link to="/contact" style={{textDecoration:"none", color:'inherit'}}>
-                <div className="contact">
-                <RiContactsLine  size={33} />
-                <p><i>Contact</i></p>
-                </div>
-                </Link>
             </div>
-        </div>
+        </div> 
     )
 }
 
