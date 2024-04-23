@@ -10,7 +10,7 @@ import {Link} from "react-router-dom"
 
 const RightBar = () => {
     return (
-        <div >
+        <div className='rightbar-div' >
             <div className="main-container-rightBar">
                 <Link to="/" style={{textDecoration:"none", color:'inherit'}}>
                 <div className="about">

@@ -158,3 +158,15 @@
         border-radius: 20%;
     }
 }
+
+
+@media screen and (max-width:390px ) {
+    .rightbar-div{
+        .main-container-rightBar{
+            display: none;
+            
+        }
+    }
+    
+    }
+

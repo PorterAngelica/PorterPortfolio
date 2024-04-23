@@ -12,3 +12,13 @@
   flex-wrap: wrap;
 }
 
+@media screen and (min-width:390px ) {
+  #root {
+    /* margin: 0 auto; */
+    padding: 2rem;
+    text-align: center;
+    background: url(https://wallpapercave.com/wp/wp2721234.jpg) ;
+    flex-wrap: wrap;
+  }
+}
+

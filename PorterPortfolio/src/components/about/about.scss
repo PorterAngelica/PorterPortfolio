@@ -2,6 +2,7 @@
     background-color: white;
     border-radius: 20px;
     margin-top: 100px;
+    padding: 10px;
 
     .header{
         h1{
@@ -27,4 +28,29 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 390px) {
+    .about-main-container{
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 50px;
+        padding: 13px;
+    }
+
+    .gift{
+        margin: 0 auto;
+        width: 50%;
+
+        img{
+            border-radius: 20px;
+            // width: 100%;
+            margin-left: -210px;
+        }
+
+        span{
+            display: none;
+        }
+    }
+
 }
