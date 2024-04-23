@@ -9,12 +9,14 @@ import RightBar from './components/rightBar/RightBar.jsx'
 import Skills from './pages/skills/Skills.jsx'
 import Projects from './pages/projects/Projects.jsx'
 import Experience from './pages/experience/Experience.jsx'
+import NavBar from './components/navBar/NavBar.jsx'
 
 function App() {
   
   const Layout = () => {
     return(
       <div>
+        <NavBar />
     <div style={{display:'flex'}}>
       <LeftBar />
       <div style={{flex:'6'}}>

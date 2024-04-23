@@ -58,46 +58,46 @@
     }
 }
 }
-// @media screen and (max-width: 390px) {
-//     .projects-main {
-//         margin-top: 50px;
-//         width: 100%;
+@media screen and (max-width: 390px) {
+    .projects-main {
+        margin-top: 50px;
+        width: 100%;
 
-//         .projects {
-//             margin-left: 10px;
-//             margin-bottom: 30px;
-//             margin-top: 15px;
+        .projects {
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-top: 15px;
 
-//             .project-items {
-//                 padding: 20px;
-//                 flex-direction: column;
-//                 gap: 10px;
+            .project-items {
+                padding: 20px;
+                flex-direction: column;
+                gap: 10px;
 
-//                 .description{
-//                     p{
-//                         font-family: "Source Sans Pro", Helvetica, sans-serif;
-//                         font-size: 1rem;
-//                         font-weight: 300;
-//                         // letter-spacing: 0.0375em;
-//                         line-height: 1.5;
+                .description{
+                    p{
+                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                        font-size: 1rem;
+                        font-weight: 300;
+                        // letter-spacing: 0.0375em;
+                        line-height: 1.5;
                     
-//                     }
-//                 }
+                    }
+                }
 
-//                 .image {
-//                     width: 100%;
-//                     margin-left: 0;
+                .image {
+                    width: 100%;
+                    margin-left: 0;
 
-//                     img {
-//                         border-radius: 20px;
-//                     }
+                    img {
+                        border-radius: 20px;
+                    }
 
-//                 }
-//             }
-//         }
+                }
+            }
+        }
 
-//         .socials {
-//             gap: 20px;
-//         }
-//     }
-// }
+        .socials {
+            gap: 20px;
+        }
+    }
+}

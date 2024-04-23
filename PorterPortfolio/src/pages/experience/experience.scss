@@ -40,3 +40,24 @@
 
 
 }
+
+@media screen and (max-width: 390px) {
+    .experience-main {
+        // margin-top: 50px;
+        width: 340px;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+
+                    p{
+                        font-family: "Source Sans Pro", Helvetica, sans-serif;
+                        font-size: 1rem;
+                        font-weight: 300;
+                        // letter-spacing: 0.0375em;
+                        line-height: 1.5;
+                    
+                    }
+            }
+        }
+
+
