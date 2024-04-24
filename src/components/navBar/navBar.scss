@@ -1,0 +1,40 @@
+@media screen and (max-width: 390px) {
+.navbar-container{
+    width: 100%;
+    margin-top: -23px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+
+
+nav{
+    // height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left{
+        // border: 3px red solid;
+
+        .image{
+            width: 70px;
+            img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .right{
+        width: 50px;
+    }
+}
+}
+}
+
+.navbar-container{
+    //some CSS
+    @media screen and (min-width:428px ) {
+    display: none;
+    }
+}

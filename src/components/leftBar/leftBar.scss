@@ -1,0 +1,102 @@
+.main-container-leftBar {
+    flex: 2;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 20px;
+    // background-color: aqua;
+    align-items: flex-start;
+    padding-left: 25px;
+    margin-top: 100px;
+    margin-right: 20px;
+    position: sticky;
+
+
+    .image {
+        width: 150px;
+        margin-left: 80px;
+        position: relative; /* Set position to relative */
+        overflow:visible;
+
+        img {
+            width: 100%;
+            border-radius: 20px;
+            position: relative;
+            margin-top: -50%;
+        }
+    }
+
+    .info {
+        margin: 15px;
+
+        .info-1 {
+            background-color: #F0F0F0;
+            height: 30px;
+            padding: 5px;
+            border-radius: 10%;
+            margin: 15px;
+            padding: 10px;
+            height: 10px;
+            width: 200px;
+        }
+    }
+
+    .social {
+        display: flex;
+        gap: 20px;
+        cursor: pointer;
+        margin-left: 25px;
+
+        .social-icon {
+            background-color: #F0F0F0;
+            border-radius: 20px;
+        }
+    }
+
+    .more-info {
+        background-color: #F0F0F0;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 10px;
+        border-radius: 20px;;
+
+        .phone {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            text-align: start;
+            
+
+        }
+
+        .email {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            text-align: start;
+            margin-top:20px ;
+        }
+
+        .location {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            text-align: start;
+            margin-top:20px ;
+        }
+
+        .more-info-icon {
+            background-color: white;
+            border-radius: 20px;;
+        }
+
+    }
+
+}
+
+.main-container-leftBar{
+    //some CSS
+    @media screen and (max-width:428px ) {
+    display: none;
+    }
+}
+    
