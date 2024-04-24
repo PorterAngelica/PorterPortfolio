@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://PorterAngelica.github.io/PorterPortfolio",
+  "homepage": "https://github.io/PorterAngelica/PorterPortfolio",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
