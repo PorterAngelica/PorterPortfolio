@@ -101,5 +101,10 @@ margin-bottom: 0;
         
         .timeline__paragraph {
             text-align: justify;
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 300px;
+            margin: 0;
+            letter-spacing: 0;
         }
     }
