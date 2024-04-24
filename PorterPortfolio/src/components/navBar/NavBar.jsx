@@ -1,5 +1,6 @@
 import React from 'react'
 import "./navBar.scss"
+import BurgerMenu from '../burgerMenu/BurgerMenu'
 
 const NavBar = () => {
     return (
@@ -10,7 +11,10 @@ const NavBar = () => {
                         <img src="./src/images/Screenshot_13-4-2024_16475_photos.google.com.jpeg" alt="" />
                     </div>
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                    <BurgerMenu  />
+                    
+                </div>
             </nav>
         </div>
     )

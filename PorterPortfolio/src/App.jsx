@@ -10,6 +10,7 @@ import Skills from './pages/skills/Skills.jsx'
 import Projects from './pages/projects/Projects.jsx'
 import Experience from './pages/experience/Experience.jsx'
 import NavBar from './components/navBar/NavBar.jsx'
+import Contact from './components/contact/Contact.jsx'
 
 function App() {
   
@@ -38,7 +39,7 @@ function App() {
         <Route path='/skills' element={ <Skills />} />
         <Route path='/projects' element={ <Projects />} />
         <Route path='/experience' element={ <Experience />} />
-        <Route path='/contact' element={ <Skills />} />
+        <Route path='/contact' element={ <Contact />} />
       </Route>
 
     </Routes>
