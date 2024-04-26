@@ -1,10 +1,13 @@
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 1000px) {
 .navbar-container{
     width: 100%;
     margin-top: -23px;
     background-color: black;
     border-radius: 20px;
     padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
 
 nav{
@@ -34,7 +37,7 @@ nav{
 
 .navbar-container{
     //some CSS
-    @media screen and (min-width:428px ) {
+    @media screen and (min-width:901px ) {
     display: none;
     }
 }

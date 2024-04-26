@@ -58,7 +58,14 @@
     }
 }
 }
-@media screen and (max-width: 390px) {
+
+@media(max-width: 1366px) {
+        .projects-main{
+    width: 772px;
+    }
+}
+
+@media screen and  (max-width: 900px)  {
     .projects-main {
         margin-top: 50px;
         width: 100%;

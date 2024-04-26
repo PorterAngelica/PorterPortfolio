@@ -57,14 +57,14 @@ margin-bottom: 0;
 
 
     
-    @media screen and (max-width: 390px) { 
+    @media screen and  (max-width: 700px)  { 
         .timeline__component {
             margin-bottom: 15px; 
         }
 
         .timeline {
             margin: 0 auto;
-            max-width: 100%; /* Ensure timeline occupies full width on smaller screens */
+            width: 100%; /* Ensure timeline occupies full width on smaller screens */
             padding: 25px;
             display: grid;
             grid-template-columns: 1fr; /* Adjusted grid layout for smaller screens */

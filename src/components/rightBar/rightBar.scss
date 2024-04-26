@@ -7,7 +7,8 @@
     align-items: flex-start;
     padding: 20px;
     margin-top: 100px;
-    margin-left: 20px;
+    margin-left: 40px;
+    
     
 
     .about{
@@ -160,13 +161,46 @@
 }
 
 
-@media screen and (max-width:390px ) {
-    .rightbar-div{
+@media screen and (max-width:900px ) {
+    // .rightbar-div{
+    //     display: none;
+    //     background-color: red;
         .main-container-rightBar{
             display: none;
             
         }
     }
-    
-    }
+
+    // .rightbar-div{
+    //     background-color: red;
+    // }
+    // }
+
+// @media screen and (min-width:601px ) {
+//     .rightbar-div{
+//         display: none;
+//         .main-container-rightBar{
+//             display: none;
+            
+//         }
+//     }
+//     }
+
+// @media screen and (min-width:768px ) {
+//     .rightbar-div{
+//         display: none;
+//         .main-container-rightBar{
+//             display: none;
+            
+//         }
+//     }
+//     }
+
+    //max-width:600px width:100%
+//min-width:601px width:100%
+//min-width:768px width:100%
+//min-width:992px width:100%
+//min-width:1200px width:100%
+
+//<600px, 601px, 768px, 992px, 1200px
 
