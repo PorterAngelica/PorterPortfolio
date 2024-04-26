@@ -78,12 +78,12 @@
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 900px)  {
     .skills-main-container{
         background-color: white;
         border-radius: 20px;
         margin-top: 20px;
-        width: 340px;
+        width: 100%;
     
         .skills-header{
             display: flex;
@@ -146,3 +146,11 @@
         }
     }
 }
+
+//max-width:600px width:100%
+//min-width:601px width:100%
+//min-width:768px width:100%
+//min-width:992px width:100%
+//min-width:1200px width:100%
+
+//<600px, 601px, 768px, 992px, 1200px

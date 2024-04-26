@@ -93,10 +93,27 @@
 
 }
 
-.main-container-leftBar{
-    //some CSS
-    @media screen and (max-width:428px ) {
+@media screen and (max-width:900px ) {
+        .main-container-leftBar{
     display: none;
     }
 }
-    
+
+// @media screen and (min-width:601px ) {
+//         .main-container-leftBar{
+//     display: none;
+//     }
+// }
+
+// @media screen and (min-width:768px ) {
+//         .main-container-leftBar{
+//     display: none;
+//     }
+// }
+        //max-width:600px width:100%
+//min-width:601px width:100%
+//min-width:768px width:100%
+//min-width:992px width:100%
+//min-width:1200px width:100%
+
+//<600px, 601px, 768px, 992px, 1200px
